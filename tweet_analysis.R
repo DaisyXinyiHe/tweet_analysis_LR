@@ -34,7 +34,7 @@ pred_test = class::knn(testing_tweets[,c(3,4,5)], testing_tweets[,c(3,4,5)], cl 
 train_acc = mean(train_factor==pred_train)
 test_acc = mean(test_factor==pred_test)
 
-#B2
+######
 #1. 
 word_author_table <- training_tweets %>%
   dplyr::select(author, text) %>%
